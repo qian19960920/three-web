@@ -2,4 +2,4 @@
 
 #城市建筑物三维渲染
 
-https://github.com/nodisappear/three-web/three-web/dist/index.html
+https://nodisappear.github.io/three-web/three-web/dist/index.html#/
