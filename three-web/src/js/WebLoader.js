@@ -8,7 +8,7 @@ let WebLoaderJS = {
   	scene: null,
     camera: null,
     renderer: null,
-    rotationSpeed: 0.01
+    rotationSpeed: 0.03
   },
 	init: function(domElement) {
 	  this.domElement = domElement;
