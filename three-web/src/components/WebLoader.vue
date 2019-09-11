@@ -1,12 +1,22 @@
 <template>
-	<div id="container">111</div>
+	<div ref="demo"></div>
 </template>
 
 <script>
-export default {
-  name: 'WebLoader',
-  data(){
+import WebLoaderJS from '../js/WebLoader'
 
+export default {
+	name: 'WebLoader',
+  data: () => ({
+  	
+  }),
+  created () {
+    this.$nextTick(() => {
+    	WebLoaderJS.init(this.$refs.demo)
+    })
+  },
+  methods: {
+    
   }
 }
 </script>
